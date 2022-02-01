@@ -12,3 +12,6 @@ Features :
 - REST API 
 - REDUX state management
 - JWT token for authentication
+
+
+<a href="https://react-kart-js.herokuapp.com/">Live Preview</a>
