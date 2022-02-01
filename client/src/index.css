@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bg-primary {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.fa-cart-plus {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -10px;
+  left: 14px;
+}
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("./assets/background.jpg");
+  height: 92vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-btn {
+  width: 200px;
+}
+
+.add-cart-btn {
+  width: 120px !important;
+  border: 2px solid black;
+}
+
+.del-btn {
+  width: 110px;
+  height: 37px;
+  text-transform: uppercase;
+}
+
+.login-btn {
+  width: 120px;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-img {
+  display: flex;
+  justify-content: center;
+}
+
+.address-checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.billing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-address-flex {
+  display: flex;
+  justify-content: space-between;
+}
